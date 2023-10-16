@@ -1,0 +1,31 @@
+{
+  "name": "blog-gpt",
+  "displayName": "blog gpt",
+  "description": "This theme was created by ChatGPT after asking it to look at a screenshot and fill in any gaps with 1984 unbolded.",
+  "version": "1.0.0",
+  "publisher": "potatoqualitee",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+"repository": {
+    "type": "git",
+    "url": "https://github.com/potatoqualitee/blog-gpt.git"
+},
+"keywords": [
+    "purple",
+    "1984-inspired",
+    "chatgpt"
+],
+  "contributes": {
+    "themes": [
+      {
+        "label": "blog gpt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blog-gpt-color-theme.json"
+      }
+    ]
+  }
+}
